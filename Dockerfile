@@ -38,6 +38,7 @@ COPY	src/*/envsubst $DOCKER_ENVSUBST_DIR/
 
 RUN	apk --no-cache --update add \
 	git-gitweb \
+	git-daemon \
 	perl-cgi \
 	fcgiwrap \
 	spawn-fcgi \
